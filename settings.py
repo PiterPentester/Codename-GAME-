@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pygame
 
 class Settings():
@@ -16,3 +17,6 @@ class Settings():
         self.bg = pygame.transform.scale(self.bg, (1920, 1080))
 
         #self.bullet_img = pygame.image.load("/home/ostap/PycharmProjects/Game1/Game1/images/new_bullet.png").convert()
+=======
+# file for settings
+>>>>>>> master

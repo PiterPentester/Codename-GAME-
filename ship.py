@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pygame
 
 class Ship():
@@ -29,3 +30,6 @@ class Ship():
             self.rect.bottom -= 7
         if self.moving_down and self.rect.bottom < self.screen_rect.bottom:
             self.rect.bottom += 7
+=======
+# file for ship functions
+>>>>>>> master
