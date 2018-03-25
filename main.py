@@ -9,7 +9,7 @@ def init_game():
     game_settings = Settings()
     screen = pygame.display.set_mode((game_settings.screen_width,game_settings.screen_height)) # Abo 800 na 600
     ship = Ship(screen)
-    pygame.display.set_caption("Space Asteroids  ")
+    pygame.display.set_caption("Space-bound")
     bullets = Group()
 
 

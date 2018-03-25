@@ -35,7 +35,6 @@ def check_events(game_settings, ship, screen, bullets):
 
 def update_screen(screen, game_settings, ship, bullets):
     pygame.display.flip()
-    screen.fill(game_settings.bg_color)
     screen.blit(game_settings.bg, (0, 0))
     ship.blitme()
     for bullet in bullets.sprites():

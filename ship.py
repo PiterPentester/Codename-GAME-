@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 import pygame
 
 class Ship():
     def __init__(self, screen):
         self.screen = screen
 
-        self.image = pygame.image.load("/home/ostap/PycharmProjects/Game1/Game1/images/Spaceship_tut.png")
+        self.image = pygame.image.load("C:/Users/Xakep/Documents/GitHub/Codename-GAME-/images/ship.png")
         self.image = pygame.transform.scale(self.image,(60,60))
         self.rect = self.image.get_rect()
         self.screen_rect = self.screen.get_rect()
@@ -30,6 +29,4 @@ class Ship():
             self.rect.bottom -= 7
         if self.moving_down and self.rect.bottom < self.screen_rect.bottom:
             self.rect.bottom += 7
-=======
-# file for ship functions
->>>>>>> master
+
