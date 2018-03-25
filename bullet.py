@@ -7,7 +7,7 @@ class Bullet(Sprite):
 
         self.screen = screen
         
-        self.bullet_img = pygame.image.load("C:/Users/Xakep/Documents/GitHub/Codename-GAME-/images/laserBlue06.png")
+        self.bullet_img = pygame.image.load("тут має бути шлях до вашої картинки лазеру")
         
         self.image = pygame.transform.scale(self.bullet_img,(5,15))
         
