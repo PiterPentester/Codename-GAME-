@@ -10,8 +10,8 @@ class Settings():
         self.bullet_speed_factor = 7
 
         self.clock = pygame.time.Clock()
-        self.bg = pygame.image.load("C:/Users/Xakep/Documents/GitHub/Codename-GAME-/images/background.jpg")
+        self.bg = pygame.image.load("тут має бути шлях до вашої картинки фону")
         self.bg = pygame.transform.scale(self.bg, (1920, 1080))
 
-        self.bullet_img = pygame.image.load("C:/Users/Xakep/Documents/GitHub/Codename-GAME-/images/laserBlue06.png")
+        self.bullet_img = pygame.image.load("тут має бути шлях до вашої картинки лазеру знову")
 
