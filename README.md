@@ -1,3 +1,3 @@
-# OurGame
+# Codename GAME
 Repo for our game
-2123
+team GAMEDEV
